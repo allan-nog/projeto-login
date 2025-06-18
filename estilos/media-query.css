@@ -1,0 +1,49 @@
+@charset "UTF-8";
+
+/* 
+📱 Responsividade - Breakpoints típicos
+- Telas muito pequenas: até 480px
+- Celulares: 481px a 767px
+- Tablets (portrait): 768px a 991px
+- Tablets (landscape) / Laptops pequenos: 992px a 1199px
+- PCs médios: 1200px a 1439px
+- PCs grandes / 4K: 1440px ou mais
+*/
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+    section#login{
+        width: 80vw;
+    }
+    section#login > div#imagem{
+        width: 30%;
+        height: 100%;
+        float: left;
+    }
+    section#login > div#formulario{
+        width: 70%;
+        height: 100%;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    body{
+        background-image: linear-gradient(to top, #49A09D, #5F2C82);
+    }
+    section#login{
+        width: 900px;
+    }
+    section#login > div#imagem{
+        width: 50%;
+        height: 100%;
+        float: left;
+    }
+    section#login > div#formulario{
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+}
