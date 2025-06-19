@@ -59,7 +59,7 @@ form > div.campo{
     align-items: center;
     justify-content: center;
     width: 100%;
-    height: 40px;
+    min-height: 40px;
     margin: 5px 0;
     background-color: #5F2C82;
     border-radius: 8px;
@@ -108,9 +108,9 @@ form > input[type='submit']:hover{
 }
 
 form > a.botao {
-    display: flex;               /* ativa flexbox */
-    align-items: center;         /* alinha verticalmente ao centro */
-    justify-content: center;     /* alinha horizontalmente ao centro */
+    display: flex;
+    align-items: center;
+    justify-content: center;     
     width: 100%;
     height: 40px;
     font-size: 1em;
@@ -120,14 +120,10 @@ form > a.botao {
     border: 1px solid #49A09D;
     border-radius: 8px;
     cursor: pointer;
-    gap: 6px;                   /* espaço entre texto e ícone */
+    gap: 6px;
 }
-
 
 form a.botao:hover{
     background-color: #94CFCD;
-}
-
-form a.botao > i{
-    font-size: 0.8em;
+    color: white;
 }
